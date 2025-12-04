@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AutomationTestDemo Suite">
+    <parameter name="env" value="qa" />
+
+    <listeners>
+        <listener class-name="AutomationTestDemo.Utility.TestListener" />
+    </listeners>
+
+    <test name="EndToEndFlow">
+        <classes>
+            <class name="AutomationTestDemo.LoginTest.LoginTest" />
+            <class name="AutomationTestDemo.LoginTest.createNewUserTest" />
+        </classes>
+    </test>
+</suite>

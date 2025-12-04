@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="21" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-23T16:33:17 IST" name="Default suite" finished-at="2025-11-23T16:50:42 IST" duration-ms="1044929">
+    <groups>
+    </groups>
+    <test started-at="2025-11-23T16:33:17 IST" name="Default test" finished-at="2025-11-23T16:50:42 IST" duration-ms="1044929">
+      <class name="AutomationTestDemo.LoginTest.LoginTest">
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:AutomationTestDemo.LoginTest.LoginTest@59712875]" started-at="2025-11-23T16:49:33 IST" name="launchbrowser" finished-at="2025-11-23T16:49:41 IST" duration-ms="7911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="validLogin_13704()[pri:1, instance:AutomationTestDemo.LoginTest.LoginTest@59712875]" started-at="2025-11-23T16:49:41 IST" name="validLogin_13704" finished-at="2025-11-23T16:49:55 IST" duration-ms="13725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin_13704 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:AutomationTestDemo.LoginTest.LoginTest@59712875]" started-at="2025-11-23T16:49:55 IST" name="quitBrowser" finished-at="2025-11-23T16:49:55 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:AutomationTestDemo.LoginTest.LoginTest@59712875]" started-at="2025-11-23T16:49:55 IST" name="launchbrowser" finished-at="2025-11-23T16:50:03 IST" duration-ms="7753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="loginWithWrongPassword_13705(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:AutomationTestDemo.LoginTest.LoginTest@59712875]" started-at="2025-11-23T16:50:03 IST" name="loginWithWrongPassword_13705" data-provider="LoginData" finished-at="2025-11-23T16:50:05 IST" duration-ms="1767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loginWithWrongPassword_13705]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pravin.yadav@medivoxx.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WrongPassEnter]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please enter the correct email and password for a staff account. Note that both fields may be case-sensitive.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongPassword_13705 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:AutomationTestDemo.LoginTest.LoginTest@59712875]" started-at="2025-11-23T16:50:05 IST" name="quitBrowser" finished-at="2025-11-23T16:50:05 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:AutomationTestDemo.LoginTest.LoginTest@59712875]" started-at="2025-11-23T16:50:05 IST" name="launchbrowser" finished-at="2025-11-23T16:50:13 IST" duration-ms="7798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="loginWithWrongEmail_13706(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:AutomationTestDemo.LoginTest.LoginTest@59712875]" started-at="2025-11-23T16:50:13 IST" name="loginWithWrongEmail_13706" data-provider="LoginData" finished-at="2025-11-23T16:50:14 IST" duration-ms="1312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loginWithWrongEmail_13706]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asd@gmail.comm]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass@2025]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please enter the correct email and password for a staff account. Note that both fields may be case-sensitive.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongEmail_13706 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:AutomationTestDemo.LoginTest.LoginTest@59712875]" started-at="2025-11-23T16:50:14 IST" name="quitBrowser" finished-at="2025-11-23T16:50:14 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:AutomationTestDemo.LoginTest.LoginTest@59712875]" started-at="2025-11-23T16:50:14 IST" name="launchbrowser" finished-at="2025-11-23T16:50:22 IST" duration-ms="7799" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="loginWithWrongEmailAndPassword_13707(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:AutomationTestDemo.LoginTest.LoginTest@59712875]" started-at="2025-11-23T16:50:22 IST" name="loginWithWrongEmailAndPassword_13707" data-provider="LoginData" finished-at="2025-11-23T16:50:24 IST" duration-ms="1586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loginWithWrongEmailAndPassword_13707]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WrongUserName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WrongPassWord]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please enter the correct email and password for a staff account. Note that both fields may be case-sensitive.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongEmailAndPassword_13707 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:AutomationTestDemo.LoginTest.LoginTest@59712875]" started-at="2025-11-23T16:50:24 IST" name="quitBrowser" finished-at="2025-11-23T16:50:24 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:AutomationTestDemo.LoginTest.LoginTest@59712875]" started-at="2025-11-23T16:50:24 IST" name="launchbrowser" finished-at="2025-11-23T16:50:32 IST" duration-ms="7607" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="loginWithoutEmailAndPassword_13708(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:AutomationTestDemo.LoginTest.LoginTest@59712875]" started-at="2025-11-23T16:50:32 IST" name="loginWithoutEmailAndPassword_13708" data-provider="LoginData" finished-at="2025-11-23T16:50:42 IST" duration-ms="10188" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginWithoutEmailAndPassword_13708]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please fill out this field]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Get Text Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='errornote']"}
+  (Session info: chrome=142.0.7444.163)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c55d85241706f56c2345626aae3954f7, findElement {using=xpath, value=//p[@class='errornote']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49813}, goog:processID: 844, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49813/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c55d85241706f56c2345626aae3954f7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Get Text Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='errornote']"}
+  (Session info: chrome=142.0.7444.163)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c55d85241706f56c2345626aae3954f7, findElement {using=xpath, value=//p[@class='errornote']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49813}, goog:processID: 844, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49813/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c55d85241706f56c2345626aae3954f7
+at org.testng.Assert.fail(Assert.java:111)
+at AutomationTestDemo.Utility.WebUtility.getText(WebUtility.java:238)
+at automationTestDemoPage.Login.loginPage.validateMessage(loginPage.java:19)
+at automationTestDemoPage.Login.loginPage.loginWithoutEmailAndPassword(loginPage.java:72)
+at AutomationTestDemo.LoginTest.LoginTest.loginWithoutEmailAndPassword_13708(LoginTest.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithoutEmailAndPassword_13708 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:AutomationTestDemo.LoginTest.LoginTest@59712875]" started-at="2025-11-23T16:50:42 IST" name="quitBrowser" finished-at="2025-11-23T16:50:42 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- AutomationTestDemo.LoginTest.LoginTest -->
+      <class name="AutomationTestDemo.LoginTest.createNewUserTest">
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:33:19 IST" name="launchbrowser" finished-at="2025-11-23T16:33:26 IST" duration-ms="7198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="createSupUsrWithValDtl_13709(java.lang.String,java.lang.String)[pri:6, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:33:26 IST" name="createSupUsrWithValDtl_13709" data-provider="LoginData" finished-at="2025-11-23T16:34:05 IST" duration-ms="39500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[createSupUsrWithValDtl_13709]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The user “” was added successfully. You may edit it again below.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSupUsrWithValDtl_13709 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:34:05 IST" name="quitBrowser" finished-at="2025-11-23T16:34:06 IST" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:34:06 IST" name="launchbrowser" finished-at="2025-11-23T16:34:15 IST" duration-ms="8383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="crtSupUsrWithDupEmail_13716(java.lang.String,java.lang.String)[pri:7, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:34:15 IST" name="crtSupUsrWithDupEmail_13716" data-provider="LoginData" finished-at="2025-11-23T16:34:48 IST" duration-ms="33148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[crtSupUsrWithDupEmail_13716]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User with this Email already exists.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crtSupUsrWithDupEmail_13716 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:34:48 IST" name="quitBrowser" finished-at="2025-11-23T16:34:48 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:34:48 IST" name="launchbrowser" finished-at="2025-11-23T16:34:56 IST" duration-ms="7915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="crtSupUsrWithWkPass_13717(java.lang.String,java.lang.String)[pri:8, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:34:56 IST" name="crtSupUsrWithWkPass_13717" data-provider="LoginData" finished-at="2025-11-23T16:35:28 IST" duration-ms="32474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[crtSupUsrWithWkPass_13717]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[This password is too common.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crtSupUsrWithWkPass_13717 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:35:28 IST" name="quitBrowser" finished-at="2025-11-23T16:35:29 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:35:29 IST" name="launchbrowser" finished-at="2025-11-23T16:35:37 IST" duration-ms="7672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="crtSupUsrWithMisPass_13718(java.lang.String,java.lang.String)[pri:9, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:35:37 IST" name="crtSupUsrWithMisPass_13718" data-provider="LoginData" finished-at="2025-11-23T16:36:10 IST" duration-ms="33545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[crtSupUsrWithMisPass_13718]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The two password fields didn’t match.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crtSupUsrWithMisPass_13718 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:36:10 IST" name="quitBrowser" finished-at="2025-11-23T16:36:10 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:36:10 IST" name="launchbrowser" finished-at="2025-11-23T16:36:18 IST" duration-ms="7993" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="viewExistUsrDtl_13722(java.lang.String,java.lang.String)[pri:10, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:36:18 IST" name="viewExistUsrDtl_13722" data-provider="LoginData" finished-at="2025-11-23T16:36:52 IST" duration-ms="33100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[viewExistUsrDtl_13722]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sharad2 Bhalke]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewExistUsrDtl_13722 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:36:52 IST" name="quitBrowser" finished-at="2025-11-23T16:36:52 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:36:52 IST" name="launchbrowser" finished-at="2025-11-23T16:36:59 IST" duration-ms="7622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="updUsrDtl_13723(java.lang.String,java.lang.String)[pri:11, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:36:59 IST" name="updUsrDtl_13723" data-provider="LoginData" finished-at="2025-11-23T16:37:56 IST" duration-ms="56390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[updUsrDtl_13723]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The user “Sharad2 Bhalke” was changed successfully.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updUsrDtl_13723 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:37:56 IST" name="quitBrowser" finished-at="2025-11-23T16:37:56 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:37:56 IST" name="launchbrowser" finished-at="2025-11-23T16:38:04 IST" duration-ms="8114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="rmvUsrPerm_13739(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:12, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:38:04 IST" name="rmvUsrPerm_13739" data-provider="LoginData" finished-at="2025-11-23T16:39:45 IST" duration-ms="100240" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[createSupUsrWithValDtl_13709]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The user “” was added successfully. You may edit it again below.]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[❌ Expected validation message NOT displayed after removing permissions!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ❌ Expected validation message NOT displayed after removing permissions!
+at org.testng.Assert.fail(Assert.java:111)
+at automationTestDemoPage.Login.createNewSuperUserPage.removePermissionsAndLogin(createNewSuperUserPage.java:121)
+at AutomationTestDemo.LoginTest.createNewUserTest.rmvUsrPerm_13739(createNewUserTest.java:102)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rmvUsrPerm_13739 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:39:45 IST" name="quitBrowser" finished-at="2025-11-23T16:39:45 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:39:45 IST" name="launchbrowser" finished-at="2025-11-23T16:39:53 IST" duration-ms="7807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="addUsrPerm_13739(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:13, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:39:53 IST" name="addUsrPerm_13739" data-provider="LoginData" finished-at="2025-11-23T16:41:22 IST" duration-ms="89230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[createSupUsrWithValDtl_13709]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The user “” was added successfully. You may edit it again below.]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUsrPerm_13739 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:41:22 IST" name="quitBrowser" finished-at="2025-11-23T16:41:22 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:41:22 IST" name="launchbrowser" finished-at="2025-11-23T16:41:30 IST" duration-ms="7558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="crtSupUsrWithBlkEmail_13719(java.lang.String,java.lang.String)[pri:14, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:41:30 IST" name="crtSupUsrWithBlkEmail_13719" data-provider="LoginData" finished-at="2025-11-23T16:42:03 IST" duration-ms="33393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[crtSupUsrWithBlkEmail_13719]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[This field is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crtSupUsrWithBlkEmail_13719 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:42:03 IST" name="quitBrowser" finished-at="2025-11-23T16:42:04 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:42:04 IST" name="launchbrowser" finished-at="2025-11-23T16:42:11 IST" duration-ms="7733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="crtSupUsrWithBlkPass_13721(java.lang.String,java.lang.String)[pri:15, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:42:11 IST" name="crtSupUsrWithBlkPass_13721" data-provider="LoginData" finished-at="2025-11-23T16:42:45 IST" duration-ms="33188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[crtSupUsrWithBlkPass_13721]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[This field is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crtSupUsrWithBlkPass_13721 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:42:45 IST" name="quitBrowser" finished-at="2025-11-23T16:42:45 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:42:45 IST" name="launchbrowser" finished-at="2025-11-23T16:42:53 IST" duration-ms="7717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="crtSupUsrWithBlkConPass_13722(java.lang.String,java.lang.String)[pri:16, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:42:53 IST" name="crtSupUsrWithBlkConPass_13722" data-provider="LoginData" finished-at="2025-11-23T16:43:27 IST" duration-ms="34274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[crtSupUsrWithBlkConPass_13722]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[This field is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crtSupUsrWithBlkConPass_13722 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:43:27 IST" name="quitBrowser" finished-at="2025-11-23T16:43:27 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:43:27 IST" name="launchbrowser" finished-at="2025-11-23T16:43:35 IST" duration-ms="8083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="crtSupUsrWthOutDtl_13720(java.lang.String,java.lang.String)[pri:17, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:43:35 IST" name="crtSupUsrWthOutDtl_13720" data-provider="LoginData" finished-at="2025-11-23T16:44:08 IST" duration-ms="33055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[crtSupUsrWthOutDtl_13720]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[This field is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crtSupUsrWthOutDtl_13720 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:44:08 IST" name="quitBrowser" finished-at="2025-11-23T16:44:09 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:44:09 IST" name="launchbrowser" finished-at="2025-11-23T16:44:16 IST" duration-ms="7685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="crtSupUsrSaveAddAno_13710(java.lang.String,java.lang.String)[pri:18, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:44:16 IST" name="crtSupUsrSaveAddAno_13710" data-provider="LoginData" finished-at="2025-11-23T16:44:53 IST" duration-ms="36307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[crtSupUsrSaveAddAno_13710]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The user “” was added successfully. You may add another user below.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crtSupUsrSaveAddAno_13710 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:44:53 IST" name="quitBrowser" finished-at="2025-11-23T16:44:53 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:44:53 IST" name="launchbrowser" finished-at="2025-11-23T16:45:01 IST" duration-ms="7717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="crtSupUsrSaveConEdti_13712(java.lang.String,java.lang.String)[pri:19, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:45:01 IST" name="crtSupUsrSaveConEdti_13712" data-provider="LoginData" finished-at="2025-11-23T16:45:39 IST" duration-ms="37760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[crtSupUsrSaveConEdti_13712]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The user “” was added successfully. You may edit it again below.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crtSupUsrSaveConEdti_13712 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:45:39 IST" name="quitBrowser" finished-at="2025-11-23T16:45:39 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:45:39 IST" name="launchbrowser" finished-at="2025-11-23T16:45:47 IST" duration-ms="7685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="crtUsrInvDtOnSave_13713(java.lang.String,java.lang.String)[pri:20, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:45:47 IST" name="crtUsrInvDtOnSave_13713" data-provider="LoginData" finished-at="2025-11-23T16:46:19 IST" duration-ms="32476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[crtUsrInvDtOnSave_13713]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Enter a valid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crtUsrInvDtOnSave_13713 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:46:19 IST" name="quitBrowser" finished-at="2025-11-23T16:46:19 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:46:19 IST" name="launchbrowser" finished-at="2025-11-23T16:46:27 IST" duration-ms="7685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="crtUsrInvDtSaveAddAno_13714(java.lang.String,java.lang.String)[pri:21, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:46:27 IST" name="crtUsrInvDtSaveAddAno_13714" data-provider="LoginData" finished-at="2025-11-23T16:47:01 IST" duration-ms="34017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[crtUsrInvDtSaveAddAno_13714]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Enter a valid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crtUsrInvDtSaveAddAno_13714 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:47:01 IST" name="quitBrowser" finished-at="2025-11-23T16:47:01 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:47:01 IST" name="launchbrowser" finished-at="2025-11-23T16:47:09 IST" duration-ms="7945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="crtUsrInvDtSaveConEdti_13715(java.lang.String,java.lang.String)[pri:22, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:47:09 IST" name="crtUsrInvDtSaveConEdti_13715" data-provider="LoginData" finished-at="2025-11-23T16:47:42 IST" duration-ms="33042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[crtUsrInvDtSaveConEdti_13715]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Enter a valid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crtUsrInvDtSaveConEdti_13715 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:47:42 IST" name="quitBrowser" finished-at="2025-11-23T16:47:43 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:47:43 IST" name="launchbrowser" finished-at="2025-11-23T16:47:51 IST" duration-ms="7859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="delCrtdUsr_13733(java.lang.String,java.lang.String)[pri:23, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:47:51 IST" name="delCrtdUsr_13733" data-provider="LoginData" finished-at="2025-11-23T16:48:29 IST" duration-ms="38869" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[delCrtdUsr_13733]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Successfully deleted 1 users.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='307']"}
+  (Session info: chrome=142.0.7444.163)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87a066ee084b55dd4239a018a15ffde0, findElement {using=xpath, value=//input[@value='307']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49688}, goog:processID: 37884, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49688/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 87a066ee084b55dd4239a018a15ffde0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='307']"}
+  (Session info: chrome=142.0.7444.163)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87a066ee084b55dd4239a018a15ffde0, findElement {using=xpath, value=//input[@value='307']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49688}, goog:processID: 37884, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49688/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 87a066ee084b55dd4239a018a15ffde0
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:48)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:473)
+at AutomationTestDemo.Utility.WebUtility.scrollAndClick(WebUtility.java:532)
+at automationTestDemoPage.Login.createNewSuperUserPage.deleteUser(createNewSuperUserPage.java:202)
+at AutomationTestDemo.LoginTest.createNewUserTest.delCrtdUsr_13733(createNewUserTest.java:191)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delCrtdUsr_13733 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:48:29 IST" name="quitBrowser" finished-at="2025-11-23T16:48:30 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:48:30 IST" name="launchbrowser" finished-at="2025-11-23T16:48:38 IST" duration-ms="7711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="deleteMultipleUser_13734(java.lang.String,java.lang.String)[pri:24, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:48:38 IST" name="deleteMultipleUser_13734" data-provider="LoginData" finished-at="2025-11-23T16:49:33 IST" duration-ms="55445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[deleteMultipleUser_13734]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Successfully deleted 2 users.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMultipleUser_13734 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:AutomationTestDemo.LoginTest.createNewUserTest@278f8425]" started-at="2025-11-23T16:49:33 IST" name="quitBrowser" finished-at="2025-11-23T16:49:33 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- AutomationTestDemo.LoginTest.createNewUserTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

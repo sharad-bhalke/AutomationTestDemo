@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutomationTestDemo Suite]">
+  <parameter name="env" value="qa"/>
+  <listeners>
+    <listener class-name="AutomationTestDemo.Utility.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="EndToEndFlow(failed)">
+    <classes>
+      <class name="AutomationTestDemo.LoginTest.LoginTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="testSuperAdminInvalidLoginMail_13706"/>
+          <include name="launchbrowser"/>
+          <include name="testSuperAdminInvalidLoginPass_13705"/>
+          <include name="testSuperAdminInvalidLoginPassMail_13707"/>
+        </methods>
+      </class> <!-- AutomationTestDemo.LoginTest.LoginTest -->
+      <class name="AutomationTestDemo.LoginTest.createNewUser">
+        <methods>
+          <include name="createNewSUWithSameDtl_13716"/>
+          <include name="quitBrowser"/>
+          <include name="createNewUsrWithWeakPaa_13717"/>
+          <include name="launchbrowser"/>
+          <include name="createNewSUWithVlDetails_13709"/>
+          <include name="Usrpermissions_13739"/>
+        </methods>
+      </class> <!-- AutomationTestDemo.LoginTest.createNewUser -->
+    </classes>
+  </test> <!-- EndToEndFlow(failed) -->
+</suite> <!-- Failed suite [AutomationTestDemo Suite] -->
