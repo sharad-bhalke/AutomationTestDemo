@@ -24,7 +24,7 @@ public class createNewTenantTest extends BaseClass {
         lgn.loginWithValidCredentials(username, password);
     }
 
-    @Test(priority = 27)
+    @Test(priority = 26)
     public void createNewTenant_13740() {
         loginAsSuperAdmin();
         
