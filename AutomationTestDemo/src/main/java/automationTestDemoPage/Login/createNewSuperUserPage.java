@@ -223,5 +223,18 @@ public class createNewSuperUserPage extends createNewSuperUserPageOr {
 		validateMessage(deleteUser, expectedValidationMessage);
 
 	}
+	public void deleteUserFromDetails(int count, String expectedValidationMessage) {
+		wu.clickElement(userSidebarLink);
+
+//		int total = userCheckboxes.size();
+//		wu.scrollAndClick(userCheckboxes.get(total - 2)); // 2nd last
+		
+		wu.scrollAndClick(openUserLink);
+		wu.scrollAndClick(deleteuserfromuserdetails);
+
+		
+		
+		
+	}
 
 }

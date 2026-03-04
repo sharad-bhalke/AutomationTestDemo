@@ -10,22 +10,31 @@
       <class name="AutomationTestDemo.LoginTest.LoginTest">
         <methods>
           <include name="quitBrowser"/>
-          <include name="testSuperAdminInvalidLoginMail_13706"/>
           <include name="launchbrowser"/>
-          <include name="testSuperAdminInvalidLoginPass_13705"/>
-          <include name="testSuperAdminInvalidLoginPassMail_13707"/>
+          <include name="loginWithoutEmailAndPassword_13708" invocation-numbers="0"/>
+          <include name="loginWithWrongEmailAndPassword_13707" invocation-numbers="0"/>
         </methods>
       </class> <!-- AutomationTestDemo.LoginTest.LoginTest -->
-      <class name="AutomationTestDemo.LoginTest.createNewUser">
+      <class name="AutomationTestDemo.LoginTest.createNewUserTest">
         <methods>
-          <include name="createNewSUWithSameDtl_13716"/>
           <include name="quitBrowser"/>
-          <include name="createNewUsrWithWeakPaa_13717"/>
           <include name="launchbrowser"/>
-          <include name="createNewSUWithVlDetails_13709"/>
-          <include name="Usrpermissions_13739"/>
+          <include name="crtSupUsrSaveAddAno_13710"/>
+          <include name="crtSupUsrWthOutDtl_13720"/>
+          <include name="deleteUserFromDetails_13735"/>
+          <include name="crtSupUsrWithBlkConPass_13722"/>
+          <include name="crtSupUsrWithBlkEmail_13719"/>
+          <include name="addUsrPerm_13739"/>
+          <include name="crtUsrInvDtSaveAddAno_13714"/>
+          <include name="crtSupUsrSaveConEdti_13712"/>
+          <include name="crtUsrInvDtOnSave_13713"/>
+          <include name="crtSupUsrWithBlkPass_13721"/>
+          <include name="rmvUsrPerm_13739"/>
+          <include name="deleteMultipleUser_13734"/>
+          <include name="crtUsrInvDtSaveConEdti_13715"/>
+          <include name="delCrtdUsr_13733"/>
         </methods>
-      </class> <!-- AutomationTestDemo.LoginTest.createNewUser -->
+      </class> <!-- AutomationTestDemo.LoginTest.createNewUserTest -->
     </classes>
   </test> <!-- EndToEndFlow(failed) -->
 </suite> <!-- Failed suite [AutomationTestDemo Suite] -->

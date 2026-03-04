@@ -3,21 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AutomationTestDemo.LoginTest.createNewUserTest">
+      <class name="AutomationTestDemo.LoginTest.createNewTenantTest">
         <methods>
           <include name="quitBrowser"/>
           <include name="launchbrowser"/>
-          <include name="rmvUsrPerm_13739" invocation-numbers="0"/>
-          <include name="delCrtdUsr_13733" invocation-numbers="0"/>
+          <include name="createNewTenant_13740"/>
         </methods>
-      </class> <!-- AutomationTestDemo.LoginTest.createNewUserTest -->
-      <class name="AutomationTestDemo.LoginTest.LoginTest">
-        <methods>
-          <include name="quitBrowser"/>
-          <include name="launchbrowser"/>
-          <include name="loginWithoutEmailAndPassword_13708" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- AutomationTestDemo.LoginTest.LoginTest -->
+      </class> <!-- AutomationTestDemo.LoginTest.createNewTenantTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,3600 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Automation Framework - Test Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Automation Framework Automation</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Feb 22, 2026 11:16:30 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<a class="dropdown-item" status="skip" href="#"><span>Skip</span><span class="status warning"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">validLogin_13704</p>
+            <p class="text-sm">
+              <span>11:16:41 am</span> / <span>00:00:23:255</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">validLogin_13704</h5>
+<span class='badge badge-success'>02.22.2026 11:16:41 am</span>
+<span class='badge badge-danger'>02.22.2026 11:17:04 am</span>
+<span class='badge badge-default'>00:00:23:255</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:41 am</td>
+        <td>
+          🚀 Test started: validLogin_13704
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:41 am</td>
+        <td>
+          🚀 Starting: Valid Login Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:41 am</td>
+        <td>
+          ⌨️ Sent keys: pravin.yadav@medivoxx.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:41 am</td>
+        <td>
+          ⌨️ Sent keys: Pass@2025
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:41 am</td>
+        <td>
+          🖱️ Clicked element: [[ChromeDriver: chrome on windows (15c03a3bc4017bccaad542e125b6ba3c)] -> xpath: //a[@title='Hide toolbar']]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:55 am</td>
+        <td>
+          🖱️ Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@type='submit']'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:55 am</td>
+        <td>
+          ✅ Valid Login Test Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:16:55 am</td>
+        <td>
+          ✅ Test Passed: validLogin_13704
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:55 am</td>
+        <td>
+          🧹 Browser closed successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:55 am</td>
+        <td>
+          📄 Sheet selected: LoginData
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:56 am</td>
+        <td>
+          ✅ Environment set from System property/TestNG: qa
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:56 am</td>
+        <td>
+          🌍 Loaded URL for qa: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:57 am</td>
+        <td>
+          ⏳ Implicit wait set to 10 sec.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:04 am</td>
+        <td>
+          ℹ️ No alert present to accept.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:04 am</td>
+        <td>
+          🌐 Browser launched and navigated to: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:04 am</td>
+        <td>
+          ✅ Browser launched successfully for environment: qa
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">loginWithWrongPassword_13705</p>
+            <p class="text-sm">
+              <span>11:17:04 am</span> / <span>00:00:09:839</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">loginWithWrongPassword_13705</h5>
+<span class='badge badge-success'>02.22.2026 11:17:04 am</span>
+<span class='badge badge-danger'>02.22.2026 11:17:14 am</span>
+<span class='badge badge-default'>00:00:09:839</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:04 am</td>
+        <td>
+          🚀 Test started: loginWithWrongPassword_13705
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:04 am</td>
+        <td>
+          🚀 Starting: Invalid Login Test (Wrong Password)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:04 am</td>
+        <td>
+          ⌨️ Sent keys: pravin.yadav@medivoxx.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:04 am</td>
+        <td>
+          ⌨️ Sent keys: WrongPassEnter
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:06 am</td>
+        <td>
+          🖱️ Clicked element: [[ChromeDriver: chrome on windows (400dc1b791b40f1745252eff2294a349)] -> xpath: //input[@type='submit']]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:06 am</td>
+        <td>
+          📋 Fetched text: Please enter the correct email and password for a staff account. Note that both fields may be case-sensitive.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:06 am</td>
+        <td>
+          ✅ Validation message matched: Please enter the correct email and password for a staff account. Note that both fields may be case-sensitive.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:06 am</td>
+        <td>
+          ✅ Wrong Password Test Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:17:06 am</td>
+        <td>
+          ✅ Test Passed: loginWithWrongPassword_13705
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:06 am</td>
+        <td>
+          🧹 Browser closed successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:06 am</td>
+        <td>
+          📄 Sheet selected: LoginData
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:06 am</td>
+        <td>
+          ✅ Environment set from System property/TestNG: qa
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:06 am</td>
+        <td>
+          🌍 Loaded URL for qa: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:07 am</td>
+        <td>
+          ⏳ Implicit wait set to 10 sec.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:14 am</td>
+        <td>
+          ℹ️ No alert present to accept.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:14 am</td>
+        <td>
+          🌐 Browser launched and navigated to: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:14 am</td>
+        <td>
+          ✅ Browser launched successfully for environment: qa
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">loginWithWrongEmail_13706</p>
+            <p class="text-sm">
+              <span>11:17:14 am</span> / <span>00:00:08:949</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">loginWithWrongEmail_13706</h5>
+<span class='badge badge-success'>02.22.2026 11:17:14 am</span>
+<span class='badge badge-danger'>02.22.2026 11:17:23 am</span>
+<span class='badge badge-default'>00:00:08:949</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:14 am</td>
+        <td>
+          🚀 Test started: loginWithWrongEmail_13706
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:14 am</td>
+        <td>
+          🚀 Starting: Invalid Login Test (Wrong Email)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:14 am</td>
+        <td>
+          ⌨️ Sent keys: asd@gmail.comm
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:14 am</td>
+        <td>
+          ⌨️ Sent keys: Pass@2025
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:15 am</td>
+        <td>
+          🖱️ Clicked element: [[ChromeDriver: chrome on windows (969f1b8046d5c9a786783128d7197232)] -> xpath: //input[@type='submit']]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:15 am</td>
+        <td>
+          📋 Fetched text: Please enter the correct email and password for a staff account. Note that both fields may be case-sensitive.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:15 am</td>
+        <td>
+          ✅ Validation message matched: Please enter the correct email and password for a staff account. Note that both fields may be case-sensitive.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:15 am</td>
+        <td>
+          ✅ Wrong Email Test Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:17:15 am</td>
+        <td>
+          ✅ Test Passed: loginWithWrongEmail_13706
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:16 am</td>
+        <td>
+          🧹 Browser closed successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:16 am</td>
+        <td>
+          📄 Sheet selected: LoginData
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:16 am</td>
+        <td>
+          ✅ Environment set from System property/TestNG: qa
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:16 am</td>
+        <td>
+          🌍 Loaded URL for qa: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:17 am</td>
+        <td>
+          ⏳ Implicit wait set to 10 sec.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:23 am</td>
+        <td>
+          ℹ️ No alert present to accept.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:23 am</td>
+        <td>
+          🌐 Browser launched and navigated to: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:23 am</td>
+        <td>
+          ✅ Browser launched successfully for environment: qa
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">loginWithWrongEmailAndPassword_13707</p>
+            <p class="text-sm">
+              <span>11:17:23 am</span> / <span>00:00:29:207</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">loginWithWrongEmailAndPassword_13707</h5>
+<span class='badge badge-success'>02.22.2026 11:17:23 am</span>
+<span class='badge badge-danger'>02.22.2026 11:17:52 am</span>
+<span class='badge badge-default'>00:00:29:207</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='C:\Users\lenovo\eclipse-workspace\AutomationTestDemo\AutomationTestDemo/Reports/Failed Snap/loginWithWrongEmailAndPassword_13707_2026-02-22_11-17-44.png' src="C:\Users\lenovo\eclipse-workspace\AutomationTestDemo\AutomationTestDemo/Reports/Failed Snap/loginWithWrongEmailAndPassword_13707_2026-02-22_11-17-44.png">
+  
+    
+
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:23 am</td>
+        <td>
+          🚀 Test started: loginWithWrongEmailAndPassword_13707
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:23 am</td>
+        <td>
+          🚀 Starting: Invalid Login Test (Wrong Email & Wrong Password)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:23 am</td>
+        <td>
+          ⌨️ Sent keys: WrongUserName
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:23 am</td>
+        <td>
+          ⌨️ Sent keys: WrongPassWord
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:33 am</td>
+        <td>
+          🖱️ Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@type='submit']'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:17:44 am</td>
+        <td>
+          ❌ Failed to get text: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='errornote']"}
+  (Session info: chrome=144.0.7559.133)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c6d289ce6fac6d290bbd21a518f7c01f, findElement {value=//p[@class='errornote'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.133, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59436}, goog:processID: 29112, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59436/devtoo..., se:cdpVersion: 144.0.7559.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c6d289ce6fac6d290bbd21a518f7c01f
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:17:44 am</td>
+        <td>
+          ❌ Test Failed: loginWithWrongEmailAndPassword_13707
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:17:44 am</td>
+        <td>
+          <textarea readonly class="code-block">java.lang.AssertionError: Get Text Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='errornote']"}
+  (Session info: chrome=144.0.7559.133)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c6d289ce6fac6d290bbd21a518f7c01f, findElement {value=//p[@class='errornote'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.133, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59436}, goog:processID: 29112, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59436/devtoo..., se:cdpVersion: 144.0.7559.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c6d289ce6fac6d290bbd21a518f7c01f
+	at org.testng.Assert.fail(Assert.java:111)
+	at AutomationTestDemo.Utility.WebUtility.getText(WebUtility.java:238)
+	at automationTestDemoPage.Login.loginPage.validateMessage(loginPage.java:19)
+	at automationTestDemoPage.Login.loginPage.loginWithWrongEmailAndPassword(loginPage.java:64)
+	at AutomationTestDemo.LoginTest.LoginTest.loginWithWrongEmailAndPassword_13707(LoginTest.java:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</textarea>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:44 am</td>
+        <td>
+          🧹 Browser closed successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:44 am</td>
+        <td>
+          📄 Sheet selected: LoginData
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:44 am</td>
+        <td>
+          ✅ Environment set from System property/TestNG: qa
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:44 am</td>
+        <td>
+          🌍 Loaded URL for qa: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:45 am</td>
+        <td>
+          ⏳ Implicit wait set to 10 sec.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:52 am</td>
+        <td>
+          ℹ️ No alert present to accept.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:52 am</td>
+        <td>
+          🌐 Browser launched and navigated to: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:52 am</td>
+        <td>
+          ✅ Browser launched successfully for environment: qa
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">loginWithoutEmailAndPassword_13708</p>
+            <p class="text-sm">
+              <span>11:17:52 am</span> / <span>00:00:18:838</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">loginWithoutEmailAndPassword_13708</h5>
+<span class='badge badge-success'>02.22.2026 11:17:52 am</span>
+<span class='badge badge-danger'>02.22.2026 11:18:11 am</span>
+<span class='badge badge-default'>00:00:18:838</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='C:\Users\lenovo\eclipse-workspace\AutomationTestDemo\AutomationTestDemo/Reports/Failed Snap/loginWithoutEmailAndPassword_13708_2026-02-22_11-18-02.png' src="C:\Users\lenovo\eclipse-workspace\AutomationTestDemo\AutomationTestDemo/Reports/Failed Snap/loginWithoutEmailAndPassword_13708_2026-02-22_11-18-02.png">
+  
+    
+
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:52 am</td>
+        <td>
+          🚀 Test started: loginWithoutEmailAndPassword_13708
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:52 am</td>
+        <td>
+          🚀 Starting: Login Without Email & Password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:52 am</td>
+        <td>
+          🖱️ Clicked element: [[ChromeDriver: chrome on windows (7020867392db2f77188d1495e248f7a8)] -> xpath: //input[@type='submit']]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:18:02 am</td>
+        <td>
+          ❌ Failed to get text: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='errornote']"}
+  (Session info: chrome=144.0.7559.133)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7020867392db2f77188d1495e248f7a8, findElement {value=//p[@class='errornote'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.133, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62533}, goog:processID: 34080, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62533/devtoo..., se:cdpVersion: 144.0.7559.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7020867392db2f77188d1495e248f7a8
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:18:02 am</td>
+        <td>
+          ❌ Test Failed: loginWithoutEmailAndPassword_13708
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:18:02 am</td>
+        <td>
+          <textarea readonly class="code-block">java.lang.AssertionError: Get Text Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='errornote']"}
+  (Session info: chrome=144.0.7559.133)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7020867392db2f77188d1495e248f7a8, findElement {value=//p[@class='errornote'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.133, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62533}, goog:processID: 34080, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62533/devtoo..., se:cdpVersion: 144.0.7559.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7020867392db2f77188d1495e248f7a8
+	at org.testng.Assert.fail(Assert.java:111)
+	at AutomationTestDemo.Utility.WebUtility.getText(WebUtility.java:238)
+	at automationTestDemoPage.Login.loginPage.validateMessage(loginPage.java:19)
+	at automationTestDemoPage.Login.loginPage.loginWithoutEmailAndPassword(loginPage.java:72)
+	at AutomationTestDemo.LoginTest.LoginTest.loginWithoutEmailAndPassword_13708(LoginTest.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</textarea>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:03 am</td>
+        <td>
+          🧹 Browser closed successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:03 am</td>
+        <td>
+          📄 Sheet selected: Messages
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:03 am</td>
+        <td>
+          ✅ Environment set from System property/TestNG: qa
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:03 am</td>
+        <td>
+          🌍 Loaded URL for qa: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:04 am</td>
+        <td>
+          ⏳ Implicit wait set to 10 sec.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:11 am</td>
+        <td>
+          ℹ️ No alert present to accept.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:11 am</td>
+        <td>
+          🌐 Browser launched and navigated to: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:11 am</td>
+        <td>
+          ✅ Browser launched successfully for environment: qa
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">createSupUsrWithValDtl_13709</p>
+            <p class="text-sm">
+              <span>11:18:11 am</span> / <span>00:00:46:805</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">createSupUsrWithValDtl_13709</h5>
+<span class='badge badge-success'>02.22.2026 11:18:11 am</span>
+<span class='badge badge-danger'>02.22.2026 11:18:58 am</span>
+<span class='badge badge-default'>00:00:46:805</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:11 am</td>
+        <td>
+          🚀 Test started: createSupUsrWithValDtl_13709
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:11 am</td>
+        <td>
+          ⌨️ Sent keys: pravin.yadav@medivoxx.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:11 am</td>
+        <td>
+          ⌨️ Sent keys: Pass@2025
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:11 am</td>
+        <td>
+          🖱️ Clicked element: [[ChromeDriver: chrome on windows (7121b301fef76d4c38e9940b43993fdd)] -> xpath: //a[@title='Hide toolbar']]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:25 am</td>
+        <td>
+          🖱️ Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@type='submit']'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:30 am</td>
+        <td>
+          🖱️ Clicked element: [[ChromeDriver: chrome on windows (7121b301fef76d4c38e9940b43993fdd)] -> xpath: //a[@href='/admin/users/user/']]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:43 am</td>
+        <td>
+          🖱️ Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='content-main']/ul/li/a'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:43 am</td>
+        <td>
+          ⌨️ Sent keys: User87@gmail.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:43 am</td>
+        <td>
+          ⌨️ Sent keys: Pass@187
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:44 am</td>
+        <td>
+          ⌨️ Sent keys: Pass@187
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:50 am</td>
+        <td>
+          🖱️ Clicked element: [[ChromeDriver: chrome on windows (7121b301fef76d4c38e9940b43993fdd)] -> xpath: //input[@name='_save']]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:50 am</td>
+        <td>
+          📋 Fetched text: The user “” was added successfully. You may edit it again below.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:50 am</td>
+        <td>
+          ✅ Validation message matched: The user “” was added successfully. You may edit it again below.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:18:50 am</td>
+        <td>
+          ✅ Test Passed: createSupUsrWithValDtl_13709
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:50 am</td>
+        <td>
+          🧹 Browser closed successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:50 am</td>
+        <td>
+          📄 Sheet selected: Messages
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:50 am</td>
+        <td>
+          ✅ Environment set from System property/TestNG: qa
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:50 am</td>
+        <td>
+          🌍 Loaded URL for qa: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:51 am</td>
+        <td>
+          ⏳ Implicit wait set to 10 sec.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:58 am</td>
+        <td>
+          ℹ️ No alert present to accept.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:58 am</td>
+        <td>
+          🌐 Browser launched and navigated to: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:58 am</td>
+        <td>
+          ✅ Browser launched successfully for environment: qa
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">crtSupUsrWithDupEmail_13716</p>
+            <p class="text-sm">
+              <span>11:18:58 am</span> / <span>00:00:40:622</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">crtSupUsrWithDupEmail_13716</h5>
+<span class='badge badge-success'>02.22.2026 11:18:58 am</span>
+<span class='badge badge-danger'>02.22.2026 11:19:38 am</span>
+<span class='badge badge-default'>00:00:40:622</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:58 am</td>
+        <td>
+          🚀 Test started: crtSupUsrWithDupEmail_13716
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:58 am</td>
+        <td>
+          ⌨️ Sent keys: pravin.yadav@medivoxx.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:58 am</td>
+        <td>
+          ⌨️ Sent keys: Pass@2025
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:58 am</td>
+        <td>
+          🖱️ Clicked element: [[ChromeDriver: chrome on windows (54653f4c9774b0398a143555b6940e79)] -> xpath: //a[@title='Hide toolbar']]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:11 am</td>
+        <td>
+          🖱️ Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@type='submit']'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:16 am</td>
+        <td>
+          🖱️ Clicked element: [[ChromeDriver: chrome on windows (54653f4c9774b0398a143555b6940e79)] -> xpath: //a[@href='/admin/users/user/']]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:29 am</td>
+        <td>
+          🖱️ Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='content-main']/ul/li/a'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:29 am</td>
+        <td>
+          ⌨️ Sent keys: pravin.yadav@medivoxx.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:29 am</td>
+        <td>
+          ⌨️ Sent keys: Pass@121
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:29 am</td>
+        <td>
+          ⌨️ Sent keys: Pass@121
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:29 am</td>
+        <td>
+          🖱️ Clicked element: [[ChromeDriver: chrome on windows (54653f4c9774b0398a143555b6940e79)] -> xpath: //input[@name='_save']]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:31 am</td>
+        <td>
+          📋 Fetched text: User with this Email already exists.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:31 am</td>
+        <td>
+          ✅ Validation message matched: User with this Email already exists.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:19:31 am</td>
+        <td>
+          ✅ Test Passed: crtSupUsrWithDupEmail_13716
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:31 am</td>
+        <td>
+          🧹 Browser closed successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:31 am</td>
+        <td>
+          📄 Sheet selected: Messages
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:31 am</td>
+        <td>
+          ✅ Environment set from System property/TestNG: qa
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:31 am</td>
+        <td>
+          🌍 Loaded URL for qa: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:32 am</td>
+        <td>
+          ⏳ Implicit wait set to 10 sec.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:38 am</td>
+        <td>
+          ℹ️ No alert present to accept.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:38 am</td>
+        <td>
+          🌐 Browser launched and navigated to: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:38 am</td>
+        <td>
+          ✅ Browser launched successfully for environment: qa
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">crtSupUsrWithWkPass_13717</p>
+            <p class="text-sm">
+              <span>11:19:38 am</span> / <span>00:00:29:941</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">crtSupUsrWithWkPass_13717</h5>
+<span class='badge badge-success'>02.22.2026 11:19:38 am</span>
+<span class='badge badge-danger'>02.22.2026 11:20:08 am</span>
+<span class='badge badge-default'>00:00:29:941</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:38 am</td>
+        <td>
+          🚀 Test started: crtSupUsrWithWkPass_13717
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:39 am</td>
+        <td>
+          ⌨️ Sent keys: pravin.yadav@medivoxx.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:39 am</td>
+        <td>
+          ⌨️ Sent keys: Pass@2025
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:39 am</td>
+        <td>
+          🖱️ Clicked element: [[ChromeDriver: chrome on windows (1e822b3fabf9a1b7c0646eb48a86c457)] -> xpath: //a[@title='Hide toolbar']]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:41 am</td>
+        <td>
+          🖱️ Clicked element: [[ChromeDriver: chrome on windows (1e822b3fabf9a1b7c0646eb48a86c457)] -> xpath: //input[@type='submit']]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:46 am</td>
+        <td>
+          🖱️ Clicked element: [[ChromeDriver: chrome on windows (1e822b3fabf9a1b7c0646eb48a86c457)] -> xpath: //a[@href='/admin/users/user/']]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:58 am</td>
+        <td>
+          🖱️ Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='content-main']/ul/li/a'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:58 am</td>
+        <td>
+          ⌨️ Sent keys: User37@gmail.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:59 am</td>
+        <td>
+          ⌨️ Sent keys: asd123
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:19:59 am</td>
+        <td>
+          ⌨️ Sent keys: asd123
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:00 am</td>
+        <td>
+          🖱️ Clicked element: [[ChromeDriver: chrome on windows (1e822b3fabf9a1b7c0646eb48a86c457)] -> xpath: //input[@name='_save']]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:00 am</td>
+        <td>
+          📋 Fetched text: This password is too common.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:00 am</td>
+        <td>
+          ✅ Validation message matched: This password is too common.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:20:00 am</td>
+        <td>
+          ✅ Test Passed: crtSupUsrWithWkPass_13717
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:01 am</td>
+        <td>
+          🧹 Browser closed successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:01 am</td>
+        <td>
+          📄 Sheet selected: Messages
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:01 am</td>
+        <td>
+          ✅ Environment set from System property/TestNG: qa
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:01 am</td>
+        <td>
+          🌍 Loaded URL for qa: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:02 am</td>
+        <td>
+          ⏳ Implicit wait set to 10 sec.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:08 am</td>
+        <td>
+          ℹ️ No alert present to accept.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:08 am</td>
+        <td>
+          🌐 Browser launched and navigated to: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:08 am</td>
+        <td>
+          ✅ Browser launched successfully for environment: qa
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">crtSupUsrWithMisPass_13718</p>
+            <p class="text-sm">
+              <span>11:20:08 am</span> / <span>00:00:42:255</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">crtSupUsrWithMisPass_13718</h5>
+<span class='badge badge-success'>02.22.2026 11:20:08 am</span>
+<span class='badge badge-danger'>02.22.2026 11:20:51 am</span>
+<span class='badge badge-default'>00:00:42:255</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:08 am</td>
+        <td>
+          🚀 Test started: crtSupUsrWithMisPass_13718
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:09 am</td>
+        <td>
+          ⌨️ Sent keys: pravin.yadav@medivoxx.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:09 am</td>
+        <td>
+          ⌨️ Sent keys: Pass@2025
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:09 am</td>
+        <td>
+          🖱️ Clicked element: [[ChromeDriver: chrome on windows (65e22e8445af0699b099312e4fabfd3f)] -> xpath: //a[@title='Hide toolbar']]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:22 am</td>
+        <td>
+          🖱️ Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@type='submit']'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:27 am</td>
+        <td>
+          🖱️ Clicked element: [[ChromeDriver: chrome on windows (65e22e8445af0699b099312e4fabfd3f)] -> xpath: //a[@href='/admin/users/user/']]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:40 am</td>
+        <td>
+          🖱️ Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='content-main']/ul/li/a'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:40 am</td>
+        <td>
+          ⌨️ Sent keys: User12@gmail.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:40 am</td>
+        <td>
+          ⌨️ Sent keys: Pass@2025
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:40 am</td>
+        <td>
+          ⌨️ Sent keys: Pass@112
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:40 am</td>
+        <td>
+          🖱️ Clicked element: [[ChromeDriver: chrome on windows (65e22e8445af0699b099312e4fabfd3f)] -> xpath: //input[@name='_save']]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:43 am</td>
+        <td>
+          📋 Fetched text: The two password fields didn’t match.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:43 am</td>
+        <td>
+          ✅ Validation message matched: The two password fields didn’t match.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:20:43 am</td>
+        <td>
+          ✅ Test Passed: crtSupUsrWithMisPass_13718
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:43 am</td>
+        <td>
+          🧹 Browser closed successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:43 am</td>
+        <td>
+          📄 Sheet selected: Messages
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:43 am</td>
+        <td>
+          ✅ Environment set from System property/TestNG: qa
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:43 am</td>
+        <td>
+          🌍 Loaded URL for qa: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:44 am</td>
+        <td>
+          ⏳ Implicit wait set to 10 sec.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:51 am</td>
+        <td>
+          ℹ️ No alert present to accept.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:51 am</td>
+        <td>
+          🌐 Browser launched and navigated to: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:51 am</td>
+        <td>
+          ✅ Browser launched successfully for environment: qa
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">viewExistUsrDtl_13722</p>
+            <p class="text-sm">
+              <span>11:20:51 am</span> / <span>00:00:41:423</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">viewExistUsrDtl_13722</h5>
+<span class='badge badge-success'>02.22.2026 11:20:51 am</span>
+<span class='badge badge-danger'>02.22.2026 11:21:32 am</span>
+<span class='badge badge-default'>00:00:41:423</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:51 am</td>
+        <td>
+          🚀 Test started: viewExistUsrDtl_13722
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:51 am</td>
+        <td>
+          ⌨️ Sent keys: pravin.yadav@medivoxx.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:51 am</td>
+        <td>
+          ⌨️ Sent keys: Pass@2025
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:20:51 am</td>
+        <td>
+          🖱️ Clicked element: [[ChromeDriver: chrome on windows (8ec49b0267342cb5a3a26e48aedbd462)] -> xpath: //a[@title='Hide toolbar']]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:21:04 am</td>
+        <td>
+          🖱️ Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@type='submit']'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:21:09 am</td>
+        <td>
+          🖱️ Clicked element: [[ChromeDriver: chrome on windows (8ec49b0267342cb5a3a26e48aedbd462)] -> xpath: //a[@href='/admin/users/user/']]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:21:24 am</td>
+        <td>
+          🖱️ Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //a[normalize-space()='sharad.bhalke@medivoxx.com']'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:21:24 am</td>
+        <td>
+          📋 Fetched text: Sharad2 Bhalke
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:21:24 am</td>
+        <td>
+          ✅ Validation message matched: Sharad2 Bhalke
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:21:24 am</td>
+        <td>
+          ✅ Test Passed: viewExistUsrDtl_13722
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:21:24 am</td>
+        <td>
+          🧹 Browser closed successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:21:24 am</td>
+        <td>
+          📄 Sheet selected: Messages
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:21:24 am</td>
+        <td>
+          ✅ Environment set from System property/TestNG: qa
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:21:24 am</td>
+        <td>
+          🌍 Loaded URL for qa: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:21:25 am</td>
+        <td>
+          ⏳ Implicit wait set to 10 sec.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:21:32 am</td>
+        <td>
+          ℹ️ No alert present to accept.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:21:32 am</td>
+        <td>
+          🌐 Browser launched and navigated to: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:21:32 am</td>
+        <td>
+          ✅ Browser launched successfully for environment: qa
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">updUsrDtl_13723</p>
+            <p class="text-sm">
+              <span>11:21:32 am</span> / <span>00:00:59:697</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">updUsrDtl_13723</h5>
+<span class='badge badge-success'>02.22.2026 11:21:32 am</span>
+<span class='badge badge-danger'>02.22.2026 11:22:32 am</span>
+<span class='badge badge-default'>00:00:59:697</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:21:32 am</td>
+        <td>
+          🚀 Test started: updUsrDtl_13723
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:21:32 am</td>
+        <td>
+          ⌨️ Sent keys: pravin.yadav@medivoxx.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:21:32 am</td>
+        <td>
+          ⌨️ Sent keys: Pass@2025
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:21:32 am</td>
+        <td>
+          🖱️ Clicked element: [[ChromeDriver: chrome on windows (e5c21b0f81d41e9c266c8337771f5153)] -> xpath: //a[@title='Hide toolbar']]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:21:45 am</td>
+        <td>
+          🖱️ Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@type='submit']'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:21:50 am</td>
+        <td>
+          🖱️ Clicked element: [[ChromeDriver: chrome on windows (e5c21b0f81d41e9c266c8337771f5153)] -> xpath: //a[@href='/admin/users/user/']]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:07 am</td>
+        <td>
+          🖱️ Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //a[normalize-space()='sharad.bhalke@medivoxx.com']'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:07 am</td>
+        <td>
+          🖱️ Clear element: [[ChromeDriver: chrome on windows (e5c21b0f81d41e9c266c8337771f5153)] -> xpath: //input[@id='id_first_name']]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:07 am</td>
+        <td>
+          ⌨️ Sent keys: Sharad2
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:20 am</td>
+        <td>
+          🖱️ Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@name='_save']'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:30 am</td>
+        <td>
+          📋 Fetched text: The user “Sharad2 Bhalke” was changed successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:30 am</td>
+        <td>
+          ✅ Validation message matched: The user “Sharad2 Bhalke” was changed successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:22:30 am</td>
+        <td>
+          ✅ Test Passed: updUsrDtl_13723
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:30 am</td>
+        <td>
+          🧹 Browser closed successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:30 am</td>
+        <td>
+          📄 Sheet selected: Messages
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:30 am</td>
+        <td>
+          ⚠ No matching row for: rmvUsrPerm_13739 → using first row.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:30 am</td>
+        <td>
+          ✅ Environment set from System property/TestNG: qa
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:30 am</td>
+        <td>
+          🌍 Loaded URL for qa: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:31 am</td>
+        <td>
+          ⏳ Implicit wait set to 10 sec.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:22:32 am</td>
+        <td>
+          ❌ ERROR: Failed to launch browser for URL: https://hcc.geesemed.com/admin/login/?next=/admin/ | Reason: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=144.0.7559.133)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [75b293f0f35543af453a34612ea36c6d, get {url=https://hcc.geesemed.com/admin/login/?next=/admin/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.133, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61952}, goog:processID: 26820, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61952/devtoo..., se:cdpVersion: 144.0.7559.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 75b293f0f35543af453a34612ea36c6d
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">rmvUsrPerm_13739</p>
+            <p class="text-sm">
+              <span>11:22:32 am</span> / <span>00:00:01:573</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">rmvUsrPerm_13739</h5>
+<span class='badge badge-success'>02.22.2026 11:22:32 am</span>
+<span class='badge badge-danger'>02.22.2026 11:22:33 am</span>
+<span class='badge badge-default'>00:00:01:573</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:32 am</td>
+        <td>
+          🚀 Test started: rmvUsrPerm_13739
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>11:22:32 am</td>
+        <td>
+          ⏭️ Test Skipped: rmvUsrPerm_13739
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:32 am</td>
+        <td>
+          🧹 Browser closed successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:32 am</td>
+        <td>
+          📄 Sheet selected: Messages
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:32 am</td>
+        <td>
+          ⚠ No matching row for: addUsrPerm_13739 → using first row.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:32 am</td>
+        <td>
+          ✅ Environment set from System property/TestNG: qa
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:32 am</td>
+        <td>
+          🌍 Loaded URL for qa: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:33 am</td>
+        <td>
+          ⏳ Implicit wait set to 10 sec.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:22:33 am</td>
+        <td>
+          ❌ ERROR: Failed to launch browser for URL: https://hcc.geesemed.com/admin/login/?next=/admin/ | Reason: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=144.0.7559.133)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1ab9ac5304a7fdccb8285ee9fe065bfc, get {url=https://hcc.geesemed.com/admin/login/?next=/admin/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.133, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55829}, goog:processID: 17568, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55829/devtoo..., se:cdpVersion: 144.0.7559.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ab9ac5304a7fdccb8285ee9fe065bfc
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">addUsrPerm_13739</p>
+            <p class="text-sm">
+              <span>11:22:33 am</span> / <span>00:00:01:658</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">addUsrPerm_13739</h5>
+<span class='badge badge-success'>02.22.2026 11:22:33 am</span>
+<span class='badge badge-danger'>02.22.2026 11:22:35 am</span>
+<span class='badge badge-default'>00:00:01:658</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:33 am</td>
+        <td>
+          🚀 Test started: addUsrPerm_13739
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>11:22:33 am</td>
+        <td>
+          ⏭️ Test Skipped: addUsrPerm_13739
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:34 am</td>
+        <td>
+          🧹 Browser closed successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:34 am</td>
+        <td>
+          📄 Sheet selected: Messages
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:34 am</td>
+        <td>
+          ✅ Environment set from System property/TestNG: qa
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:34 am</td>
+        <td>
+          🌍 Loaded URL for qa: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:35 am</td>
+        <td>
+          ⏳ Implicit wait set to 10 sec.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:22:35 am</td>
+        <td>
+          ❌ ERROR: Failed to launch browser for URL: https://hcc.geesemed.com/admin/login/?next=/admin/ | Reason: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=144.0.7559.133)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [686c4551552b8a25d44c80cf3045da6d, get {url=https://hcc.geesemed.com/admin/login/?next=/admin/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.133, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50781}, goog:processID: 23656, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50781/devtoo..., se:cdpVersion: 144.0.7559.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 686c4551552b8a25d44c80cf3045da6d
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">crtSupUsrWithBlkEmail_13719</p>
+            <p class="text-sm">
+              <span>11:22:35 am</span> / <span>00:00:01:898</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">crtSupUsrWithBlkEmail_13719</h5>
+<span class='badge badge-success'>02.22.2026 11:22:35 am</span>
+<span class='badge badge-danger'>02.22.2026 11:22:37 am</span>
+<span class='badge badge-default'>00:00:01:898</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:35 am</td>
+        <td>
+          🚀 Test started: crtSupUsrWithBlkEmail_13719
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>11:22:35 am</td>
+        <td>
+          ⏭️ Test Skipped: crtSupUsrWithBlkEmail_13719
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:35 am</td>
+        <td>
+          🧹 Browser closed successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:35 am</td>
+        <td>
+          📄 Sheet selected: Messages
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:35 am</td>
+        <td>
+          ✅ Environment set from System property/TestNG: qa
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:35 am</td>
+        <td>
+          🌍 Loaded URL for qa: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:37 am</td>
+        <td>
+          ⏳ Implicit wait set to 10 sec.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:22:37 am</td>
+        <td>
+          ❌ ERROR: Failed to launch browser for URL: https://hcc.geesemed.com/admin/login/?next=/admin/ | Reason: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=144.0.7559.133)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b063f01ca1943de8b6b1196e67fe26bc, get {url=https://hcc.geesemed.com/admin/login/?next=/admin/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.133, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59832}, goog:processID: 22760, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59832/devtoo..., se:cdpVersion: 144.0.7559.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b063f01ca1943de8b6b1196e67fe26bc
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">crtSupUsrWithBlkPass_13721</p>
+            <p class="text-sm">
+              <span>11:22:37 am</span> / <span>00:00:01:771</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">crtSupUsrWithBlkPass_13721</h5>
+<span class='badge badge-success'>02.22.2026 11:22:37 am</span>
+<span class='badge badge-danger'>02.22.2026 11:22:39 am</span>
+<span class='badge badge-default'>00:00:01:771</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:37 am</td>
+        <td>
+          🚀 Test started: crtSupUsrWithBlkPass_13721
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>11:22:37 am</td>
+        <td>
+          ⏭️ Test Skipped: crtSupUsrWithBlkPass_13721
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:37 am</td>
+        <td>
+          🧹 Browser closed successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:37 am</td>
+        <td>
+          📄 Sheet selected: Messages
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:37 am</td>
+        <td>
+          ✅ Environment set from System property/TestNG: qa
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:37 am</td>
+        <td>
+          🌍 Loaded URL for qa: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:38 am</td>
+        <td>
+          ⏳ Implicit wait set to 10 sec.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:22:39 am</td>
+        <td>
+          ❌ ERROR: Failed to launch browser for URL: https://hcc.geesemed.com/admin/login/?next=/admin/ | Reason: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=144.0.7559.133)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5c95d8265aecb3640cc82f5beccb7e82, get {url=https://hcc.geesemed.com/admin/login/?next=/admin/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.133, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59985}, goog:processID: 32588, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59985/devtoo..., se:cdpVersion: 144.0.7559.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c95d8265aecb3640cc82f5beccb7e82
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">crtSupUsrWithBlkConPass_13722</p>
+            <p class="text-sm">
+              <span>11:22:39 am</span> / <span>00:00:01:750</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">crtSupUsrWithBlkConPass_13722</h5>
+<span class='badge badge-success'>02.22.2026 11:22:39 am</span>
+<span class='badge badge-danger'>02.22.2026 11:22:40 am</span>
+<span class='badge badge-default'>00:00:01:750</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:39 am</td>
+        <td>
+          🚀 Test started: crtSupUsrWithBlkConPass_13722
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>11:22:39 am</td>
+        <td>
+          ⏭️ Test Skipped: crtSupUsrWithBlkConPass_13722
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:39 am</td>
+        <td>
+          🧹 Browser closed successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:39 am</td>
+        <td>
+          📄 Sheet selected: Messages
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:39 am</td>
+        <td>
+          ✅ Environment set from System property/TestNG: qa
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:39 am</td>
+        <td>
+          🌍 Loaded URL for qa: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:40 am</td>
+        <td>
+          ⏳ Implicit wait set to 10 sec.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:22:40 am</td>
+        <td>
+          ❌ ERROR: Failed to launch browser for URL: https://hcc.geesemed.com/admin/login/?next=/admin/ | Reason: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=144.0.7559.133)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d022fe2f5a6183fede7feccc96e007b0, get {url=https://hcc.geesemed.com/admin/login/?next=/admin/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.133, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64202}, goog:processID: 34252, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64202/devtoo..., se:cdpVersion: 144.0.7559.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d022fe2f5a6183fede7feccc96e007b0
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">crtSupUsrWthOutDtl_13720</p>
+            <p class="text-sm">
+              <span>11:22:40 am</span> / <span>00:00:01:553</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">crtSupUsrWthOutDtl_13720</h5>
+<span class='badge badge-success'>02.22.2026 11:22:40 am</span>
+<span class='badge badge-danger'>02.22.2026 11:22:42 am</span>
+<span class='badge badge-default'>00:00:01:553</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:40 am</td>
+        <td>
+          🚀 Test started: crtSupUsrWthOutDtl_13720
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>11:22:40 am</td>
+        <td>
+          ⏭️ Test Skipped: crtSupUsrWthOutDtl_13720
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:41 am</td>
+        <td>
+          🧹 Browser closed successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:41 am</td>
+        <td>
+          📄 Sheet selected: Messages
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:41 am</td>
+        <td>
+          ✅ Environment set from System property/TestNG: qa
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:41 am</td>
+        <td>
+          🌍 Loaded URL for qa: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:42 am</td>
+        <td>
+          ⏳ Implicit wait set to 10 sec.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:22:42 am</td>
+        <td>
+          ❌ ERROR: Failed to launch browser for URL: https://hcc.geesemed.com/admin/login/?next=/admin/ | Reason: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=144.0.7559.133)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [43ae9d66b687d9a3f16e4ee6939df39a, get {url=https://hcc.geesemed.com/admin/login/?next=/admin/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.133, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52101}, goog:processID: 14388, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52101/devtoo..., se:cdpVersion: 144.0.7559.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 43ae9d66b687d9a3f16e4ee6939df39a
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="18"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">crtSupUsrSaveAddAno_13710</p>
+            <p class="text-sm">
+              <span>11:22:42 am</span> / <span>00:00:01:441</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">crtSupUsrSaveAddAno_13710</h5>
+<span class='badge badge-success'>02.22.2026 11:22:42 am</span>
+<span class='badge badge-danger'>02.22.2026 11:22:43 am</span>
+<span class='badge badge-default'>00:00:01:441</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:42 am</td>
+        <td>
+          🚀 Test started: crtSupUsrSaveAddAno_13710
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>11:22:42 am</td>
+        <td>
+          ⏭️ Test Skipped: crtSupUsrSaveAddAno_13710
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:42 am</td>
+        <td>
+          🧹 Browser closed successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:42 am</td>
+        <td>
+          📄 Sheet selected: Messages
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:42 am</td>
+        <td>
+          ✅ Environment set from System property/TestNG: qa
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:42 am</td>
+        <td>
+          🌍 Loaded URL for qa: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:43 am</td>
+        <td>
+          ⏳ Implicit wait set to 10 sec.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:22:43 am</td>
+        <td>
+          ❌ ERROR: Failed to launch browser for URL: https://hcc.geesemed.com/admin/login/?next=/admin/ | Reason: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=144.0.7559.133)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b02917b7cdb7eebdfeb327dcf4e48861, get {url=https://hcc.geesemed.com/admin/login/?next=/admin/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.133, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57382}, goog:processID: 30780, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57382/devtoo..., se:cdpVersion: 144.0.7559.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b02917b7cdb7eebdfeb327dcf4e48861
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="19"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">crtSupUsrSaveConEdti_13712</p>
+            <p class="text-sm">
+              <span>11:22:43 am</span> / <span>00:00:06:618</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">crtSupUsrSaveConEdti_13712</h5>
+<span class='badge badge-success'>02.22.2026 11:22:43 am</span>
+<span class='badge badge-danger'>02.22.2026 11:22:50 am</span>
+<span class='badge badge-default'>00:00:06:618</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:43 am</td>
+        <td>
+          🚀 Test started: crtSupUsrSaveConEdti_13712
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>11:22:43 am</td>
+        <td>
+          ⏭️ Test Skipped: crtSupUsrSaveConEdti_13712
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:44 am</td>
+        <td>
+          🧹 Browser closed successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:44 am</td>
+        <td>
+          📄 Sheet selected: Messages
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:44 am</td>
+        <td>
+          ✅ Environment set from System property/TestNG: qa
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:44 am</td>
+        <td>
+          🌍 Loaded URL for qa: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:45 am</td>
+        <td>
+          ⏳ Implicit wait set to 10 sec.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:50 am</td>
+        <td>
+          ℹ️ No alert present to accept.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:50 am</td>
+        <td>
+          🌐 Browser launched and navigated to: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:50 am</td>
+        <td>
+          ✅ Browser launched successfully for environment: qa
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="20"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">crtUsrInvDtOnSave_13713</p>
+            <p class="text-sm">
+              <span>11:22:50 am</span> / <span>00:00:08:007</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">crtUsrInvDtOnSave_13713</h5>
+<span class='badge badge-success'>02.22.2026 11:22:50 am</span>
+<span class='badge badge-danger'>02.22.2026 11:22:58 am</span>
+<span class='badge badge-default'>00:00:08:007</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:50 am</td>
+        <td>
+          🚀 Test started: crtUsrInvDtOnSave_13713
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>11:22:50 am</td>
+        <td>
+          ⏭️ Test Skipped: crtUsrInvDtOnSave_13713
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:50 am</td>
+        <td>
+          🧹 Browser closed successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:50 am</td>
+        <td>
+          📄 Sheet selected: Messages
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:50 am</td>
+        <td>
+          ✅ Environment set from System property/TestNG: qa
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:50 am</td>
+        <td>
+          🌍 Loaded URL for qa: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:52 am</td>
+        <td>
+          ⏳ Implicit wait set to 10 sec.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:58 am</td>
+        <td>
+          ℹ️ No alert present to accept.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:58 am</td>
+        <td>
+          🌐 Browser launched and navigated to: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:58 am</td>
+        <td>
+          ✅ Browser launched successfully for environment: qa
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="21"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">crtUsrInvDtSaveAddAno_13714</p>
+            <p class="text-sm">
+              <span>11:22:58 am</span> / <span>00:00:08:235</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">crtUsrInvDtSaveAddAno_13714</h5>
+<span class='badge badge-success'>02.22.2026 11:22:58 am</span>
+<span class='badge badge-danger'>02.22.2026 11:23:06 am</span>
+<span class='badge badge-default'>00:00:08:235</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:58 am</td>
+        <td>
+          🚀 Test started: crtUsrInvDtSaveAddAno_13714
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>11:22:58 am</td>
+        <td>
+          ⏭️ Test Skipped: crtUsrInvDtSaveAddAno_13714
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:58 am</td>
+        <td>
+          🧹 Browser closed successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:58 am</td>
+        <td>
+          📄 Sheet selected: Messages
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:58 am</td>
+        <td>
+          ✅ Environment set from System property/TestNG: qa
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:58 am</td>
+        <td>
+          🌍 Loaded URL for qa: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:22:59 am</td>
+        <td>
+          ⏳ Implicit wait set to 10 sec.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:06 am</td>
+        <td>
+          ℹ️ No alert present to accept.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:06 am</td>
+        <td>
+          🌐 Browser launched and navigated to: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:06 am</td>
+        <td>
+          ✅ Browser launched successfully for environment: qa
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="22"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">crtUsrInvDtSaveConEdti_13715</p>
+            <p class="text-sm">
+              <span>11:23:06 am</span> / <span>00:00:08:557</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">crtUsrInvDtSaveConEdti_13715</h5>
+<span class='badge badge-success'>02.22.2026 11:23:06 am</span>
+<span class='badge badge-danger'>02.22.2026 11:23:15 am</span>
+<span class='badge badge-default'>00:00:08:557</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:06 am</td>
+        <td>
+          🚀 Test started: crtUsrInvDtSaveConEdti_13715
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>11:23:06 am</td>
+        <td>
+          ⏭️ Test Skipped: crtUsrInvDtSaveConEdti_13715
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:07 am</td>
+        <td>
+          🧹 Browser closed successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:07 am</td>
+        <td>
+          📄 Sheet selected: Messages
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:07 am</td>
+        <td>
+          ✅ Environment set from System property/TestNG: qa
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:07 am</td>
+        <td>
+          🌍 Loaded URL for qa: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:08 am</td>
+        <td>
+          ⏳ Implicit wait set to 10 sec.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:15 am</td>
+        <td>
+          ℹ️ No alert present to accept.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:15 am</td>
+        <td>
+          🌐 Browser launched and navigated to: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:15 am</td>
+        <td>
+          ✅ Browser launched successfully for environment: qa
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="23"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">delCrtdUsr_13733</p>
+            <p class="text-sm">
+              <span>11:23:15 am</span> / <span>00:00:08:304</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">delCrtdUsr_13733</h5>
+<span class='badge badge-success'>02.22.2026 11:23:15 am</span>
+<span class='badge badge-danger'>02.22.2026 11:23:23 am</span>
+<span class='badge badge-default'>00:00:08:304</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:15 am</td>
+        <td>
+          🚀 Test started: delCrtdUsr_13733
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>11:23:15 am</td>
+        <td>
+          ⏭️ Test Skipped: delCrtdUsr_13733
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:15 am</td>
+        <td>
+          🧹 Browser closed successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:15 am</td>
+        <td>
+          📄 Sheet selected: Messages
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:15 am</td>
+        <td>
+          ✅ Environment set from System property/TestNG: qa
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:15 am</td>
+        <td>
+          🌍 Loaded URL for qa: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:16 am</td>
+        <td>
+          ⏳ Implicit wait set to 10 sec.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:23 am</td>
+        <td>
+          ℹ️ No alert present to accept.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:23 am</td>
+        <td>
+          🌐 Browser launched and navigated to: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:23 am</td>
+        <td>
+          ✅ Browser launched successfully for environment: qa
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="24"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">deleteMultipleUser_13734</p>
+            <p class="text-sm">
+              <span>11:23:23 am</span> / <span>00:00:07:866</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">deleteMultipleUser_13734</h5>
+<span class='badge badge-success'>02.22.2026 11:23:23 am</span>
+<span class='badge badge-danger'>02.22.2026 11:23:31 am</span>
+<span class='badge badge-default'>00:00:07:866</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:23 am</td>
+        <td>
+          🚀 Test started: deleteMultipleUser_13734
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>11:23:23 am</td>
+        <td>
+          ⏭️ Test Skipped: deleteMultipleUser_13734
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:23 am</td>
+        <td>
+          🧹 Browser closed successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:23 am</td>
+        <td>
+          📄 Sheet selected: Messages
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:23 am</td>
+        <td>
+          ✅ Environment set from System property/TestNG: qa
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:23 am</td>
+        <td>
+          🌍 Loaded URL for qa: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:25 am</td>
+        <td>
+          ⏳ Implicit wait set to 10 sec.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:31 am</td>
+        <td>
+          ℹ️ No alert present to accept.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:31 am</td>
+        <td>
+          🌐 Browser launched and navigated to: https://hcc.geesemed.com/admin/login/?next=/admin/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:31 am</td>
+        <td>
+          ✅ Browser launched successfully for environment: qa
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="25"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">deleteUserFromDetails_13735</p>
+            <p class="text-sm">
+              <span>11:23:31 am</span> / <span>00:00:00:192</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">deleteUserFromDetails_13735</h5>
+<span class='badge badge-success'>02.22.2026 11:23:31 am</span>
+<span class='badge badge-danger'>02.22.2026 11:23:31 am</span>
+<span class='badge badge-default'>00:00:00:192</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:31 am</td>
+        <td>
+          🚀 Test started: deleteUserFromDetails_13735
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>11:23:31 am</td>
+        <td>
+          ⏭️ Test Skipped: deleteUserFromDetails_13735
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:23:31 am</td>
+        <td>
+          🧹 Browser closed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:17:23 am</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>loginWithWrongEmailAndPassword_13707</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:17:52 am</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>loginWithoutEmailAndPassword_13708</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Feb 22, 2026 11:16:30 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Feb 22, 2026 11:23:31 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>8</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>10</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='32%'>
+<b>8</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='40%'><b>10</b> tests failed,
+<b>7</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='2%'><b>9</b> events passed</small></div>
+<div>
+<small data-tooltip='4%'><b>14</b> events failed,
+<b data-tooltip='%'>303</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"validLogin_13704":23.255,"loginWithWrongPassword_13705":9.839,"loginWithWrongEmail_13706":8.949,"loginWithWrongEmailAndPassword_13707":29.207,"loginWithoutEmailAndPassword_13708":18.838,"createSupUsrWithValDtl_13709":46.805,"crtSupUsrWithDupEmail_13716":40.622,"crtSupUsrWithWkPass_13717":29.941,"crtSupUsrWithMisPass_13718":42.255,"viewExistUsrDtl_13722":41.423,"updUsrDtl_13723":59.697,"rmvUsrPerm_13739":1.573,"addUsrPerm_13739":1.658,"crtSupUsrWithBlkEmail_13719":1.898,"crtSupUsrWithBlkPass_13721":1.771,"crtSupUsrWithBlkConPass_13722":1.75,"crtSupUsrWthOutDtl_13720":1.553,"crtSupUsrSaveAddAno_13710":1.441,"crtSupUsrSaveConEdti_13712":6.618,"crtUsrInvDtOnSave_13713":8.007,"crtUsrInvDtSaveAddAno_13714":8.235,"crtUsrInvDtSaveConEdti_13715":8.557,"delCrtdUsr_13733":8.304,"deleteMultipleUser_13734":7.866,"deleteUserFromDetails_13735":0.192
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>OS</td>
+<td>Windows 11</td>
+</tr>
+<tr>
+<td>OS Version</td>
+<td>10.0</td>
+</tr>
+<tr>
+<td>System User</td>
+<td>lenovo</td>
+</tr>
+<tr>
+<td>Java Version</td>
+<td>21.0.1</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>QA</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 8,
+failParent: 10,
+warningParent: 0,
+skipParent: 7,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 9,
+failEvents: 14,
+warningEvents: 0,
+skipEvents: 14,
+infoEvents: 289
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c05cd28cde1617b9d0c05a831daff6cb97fd9fd5/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

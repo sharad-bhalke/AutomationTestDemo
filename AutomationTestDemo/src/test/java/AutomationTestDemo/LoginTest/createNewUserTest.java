@@ -197,4 +197,12 @@ public class createNewUserTest extends BaseClass {
 		initPage();
 		newUserPage.deleteMultipleUser(2, ExpectedValidationMessage);
 	}
+	
+	@Test(priority = 25, dataProvider = "LoginData")
+	public void deleteUserFromDetails_13735(String testCase, String ExpectedValidationMessage) {
+		loginAsSuperAdmin();
+		initPage();
+		newUserPage.deleteUserFromDetails(2,  ExpectedValidationMessage);
+		
+	}
 }

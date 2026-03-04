@@ -117,4 +117,6 @@ public class createNewSuperUserPageOr {
 	
 	@FindBy(xpath = "//li[@class='success']")
 	protected WebElement deleteUser;
+	@FindBy(xpath = "//a[normalize-space()='Delete']")
+	protected WebElement deleteuserfromuserdetails;
 }
